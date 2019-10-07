@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "y-header": "./childComponents/y-header/y-header",
+    "y-info": "./childComponents/y-info/y-info",
+    "y-list-view": "./childComponents/y-list-view/y-list-view"
+  },
   "navigationBarTitleText": "我的"
 }

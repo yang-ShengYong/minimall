@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/profile/profile",
     "pages/home/home",
     "pages/category/category",
-    "pages/cart/cart",
-    "pages/profile/profile"
+    "pages/cart/cart"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

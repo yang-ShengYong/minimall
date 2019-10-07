@@ -1,0 +1,16 @@
+<!--pages/profile/childComponents/y-header/y-header.wxml-->
+<view class="header">
+  <view class="avatar">
+    <image src="/assets/profile/avatar.png" mode="widthFix"/>
+  </view>
+  <view class="login-info">
+    <view class="login">登录/注册</view>
+    <view class="phone">
+      <image src="/assets/profile/phone.png" mode="widthFix"/>
+      暂无手机号绑定
+    </view>
+  </view>
+  <view class="arrow-right">
+    <image src="/assets/common/arrow-right.png" mode="widthFix"/>
+  </view>
+</view>

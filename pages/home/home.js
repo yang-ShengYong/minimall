@@ -170,7 +170,7 @@ Page({
   },
 
   onPageScroll (options) {
-    // 获取#tab-control离顶部的距离
+    // 固定#tab-control
     const id = !this.data.isFixed? '1' : '2'
     wx.createSelectorQuery().select(`#tab-control${id}`).boundingClientRect(rect => {
       const flag1 = rect.top <= 0
@@ -181,6 +181,7 @@ Page({
       }
     }).exec() 
 
+    //回到顶部
     const scrollTop = options.scrollTop
     const flag = scrollTop > TOP_DISTANCE
     if (flag != this.data.showBackTop) {

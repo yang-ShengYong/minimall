@@ -1,0 +1,19 @@
+/* pages/profile/childComponents/y-info/y-info.wxss */
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.info .info-item {
+  width: 33%;
+  padding: 50rpx 0;
+  border-right: 1rpx solid #eee;
+}
+.info .info-item .count {
+  color: #f40;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.5;
+}
