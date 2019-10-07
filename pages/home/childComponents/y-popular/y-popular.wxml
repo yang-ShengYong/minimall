@@ -1,0 +1,4 @@
+<!--pages/home/childComponents/y-popular/y-popular.wxml-->
+<view class="popular">
+  <image src="/assets/home/image/recommend_bg.jpg" mode="widthFix" />
+</view>

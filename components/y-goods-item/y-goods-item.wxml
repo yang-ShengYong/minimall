@@ -1,0 +1,11 @@
+<!--components/y-goods-item/y-goods-item.wxml-->
+<view class="goods-item">
+  <image src="{{item.image}}" mode="widthFix"/>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <text class="collect">☆{{item.collect}}</text>
+    </view>
+  </view>
+</view>

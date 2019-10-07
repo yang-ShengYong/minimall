@@ -1,0 +1,26 @@
+/* components/y-goods-item/y-goods-item.wxss */
+.goods-item {
+  margin-top: 20rpx;
+}
+.goods-item image {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.goods-item .desc-info .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.goods-item .desc-info .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-item .desc-info .price {
+  color: #ff5777;
+  font-weight: 700;
+}
